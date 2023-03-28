@@ -1,0 +1,62 @@
+.main {
+    background-image: url("./reerrr-min.jpg");
+}
+
+.modal-container {
+    width: 50%;
+    display: flex;
+    margin: auto;
+    padding: 10%;
+}
+
+.modal-while {
+    color: #111111;
+    padding: 30px 45px;
+    background-color: white;
+}
+
+.avatar {
+    position: relative;
+    width: calc(100%);
+}
+
+.avatar img{
+    width: 100%;
+}
+
+.feedback {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+
+.btn-submit {
+    width: 100%;
+    padding: 10px 2px;
+    color: aliceblue;
+    background: #1f8eef;
+    border: #1f8eef;
+    border-radius: 5px;
+}
+
+.btn-submit:hover {
+    background: #2968ff;
+}
+
+.d-button {
+    padding: 0 20%;
+}
+
+a svg:hover{
+    color: #2968ff;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.text-center{
+    text-align: center;
+}
