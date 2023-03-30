@@ -16,12 +16,12 @@
 }
 
 .avatar {
-    position: relative;
-    width: calc(100%);
+    width: 100%;
 }
 
 .avatar img{
     width: 100%;
+    display:block;
 }
 
 .feedback {
@@ -37,7 +37,8 @@
     color: aliceblue;
     background: #1f8eef;
     border: #1f8eef;
-    border-radius: 5px;
+    border-radius: 5px
+    cursor: pointer;
 }
 
 .btn-submit:hover {
@@ -53,10 +54,24 @@ a svg:hover{
     text-decoration: none;
 }
 
-a{
-    text-decoration: none;
-}
-
 .text-center{
     text-align: center;
+}
+
+.mb-2{
+    margin-bottom: 0.5rem;
+}
+
+.mb-4{
+    margin-bottom: 1rem;
+}
+
+.py-2{
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.px-4{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
